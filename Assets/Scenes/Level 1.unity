@@ -286,6 +286,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Lost Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8471104001376146012, guid: ede526a18adc14ae4a0a6ca822af844d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8471104001376145984, guid: ede526a18adc14ae4a0a6ca822af844d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -468,7 +473,7 @@ Transform:
   - {fileID: 1466146460}
   - {fileID: 1268266777}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1425826034
 PrefabInstance:
@@ -780,7 +785,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2027458222
 PrefabInstance:
@@ -1217,7 +1222,7 @@ PrefabInstance:
     - target: {fileID: 7111263310331867803, guid: 060eb187f067e470a9731e3ca9e89991,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7111263310331867803, guid: 060eb187f067e470a9731e3ca9e89991,
         type: 3}
@@ -1286,7 +1291,7 @@ PrefabInstance:
     - target: {fileID: 5165307684280172282, guid: 19bbf9a6986b9412bb36bed04620be35,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5165307684280172282, guid: 19bbf9a6986b9412bb36bed04620be35,
         type: 3}
@@ -1407,6 +1412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Complete Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8471104001376146012, guid: ede526a18adc14ae4a0a6ca822af844d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8471104001376145984, guid: ede526a18adc14ae4a0a6ca822af844d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1525,6 +1535,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8682938959295592536, guid: d9b4c08dc97e54f40b8f89b5141865f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8682938959295592534, guid: d9b4c08dc97e54f40b8f89b5141865f1,
         type: 3}

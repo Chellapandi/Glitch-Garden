@@ -25,6 +25,15 @@ public class OptionsController : MonoBehaviour
         {
             musicPlayer.SetVolume(volumeSlider.value);
         }
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.GetKeyUp(KeyCode.Escape))
+            {
+                Application.Quit();
+                return;
+            }
+        }
     }
 
     public void SaveAndExit()

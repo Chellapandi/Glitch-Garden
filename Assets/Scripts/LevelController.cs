@@ -30,7 +30,7 @@ public class LevelController : MonoBehaviour
     {
         numberOfAttackers--;
 
-        if(numberOfAttackers <=0 && levelTimerFinished)
+        if(levelTimerFinished)
         {
             StartCoroutine(HandleWinCondition());
         }

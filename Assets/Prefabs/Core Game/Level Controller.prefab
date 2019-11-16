@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b510f81eeaaaf431d974002bb8349db0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToWait: 3
+  timeToWait: 15

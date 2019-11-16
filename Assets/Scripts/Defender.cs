@@ -6,6 +6,12 @@ public class Defender : MonoBehaviour
 {
     [SerializeField] int starCost = 3;
 
+    Shooter shooter;
+
+    private void Start()
+    {
+        shooter = FindObjectOfType<Shooter>();
+    }
 
     public void AddStars(int amount)
     {
@@ -15,5 +21,10 @@ public class Defender : MonoBehaviour
     public int GetStarCost()
     {
         return starCost;
+    }
+
+    private void OnMouseDown()
+    {
+        shooter.Fire();
     }
 }

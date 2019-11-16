@@ -18,6 +18,15 @@ public class Attacker : MonoBehaviour
     {
         transform.Translate(Vector2.left * walkSpeed * Time.deltaTime);
         UpdateAnimationState();
+
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (Input.GetKeyUp(KeyCode.Escape))
+            {
+                Application.Quit();
+                return;
+            }
+        }
     }
 
     private void UpdateAnimationState()
